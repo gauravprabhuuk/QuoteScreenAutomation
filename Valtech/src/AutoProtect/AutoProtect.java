@@ -31,7 +31,7 @@ public class AutoProtect {
 		System.out.println("Successfully opened the website MoneySuperMarket" + "\n");
 
 		String HouseNumber = ExcelUtils.getCellData(1, 1);
-		String PostCode = ExcelUtils.getCellData(1, 2);
+		//String PostCode = ExcelUtils.getCellData(1, 2);
 		
 		driver.findElement(By.xpath("//*[@id=\"knownRegnumber\"]/div[2]/div[2]/span[2]/label")).click();
 
